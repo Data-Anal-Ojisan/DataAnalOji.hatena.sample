@@ -1,2 +1,6 @@
 # DataAnalOji.hatena.sample
-samples for my own blog
+
+## pythonで統計
+
+### グラフ描画
+- 3-D散布図
