@@ -2,6 +2,9 @@
 
 ## pythonで統計
 
+### クラスタリング
+- [GMM](/python_samples/blog_gaussian_mixture.ipynb)
+
 ### 評価指標
 - [precision/recall/f-value](/python_samples/blog_precision_recall_f-value.ipynb)
 
