@@ -15,4 +15,3 @@
 - [移動平均](/python_samples/blog_rolling_mean.ipynb)
 - [処理時間計測](/python_samples/blog_processing_time.ipynb)
 - [メモリ使用量計測](/python_samples/blog_memory_usage.py)
-df.index[(df["frequency"]-3000).abs().argsort()][0]
