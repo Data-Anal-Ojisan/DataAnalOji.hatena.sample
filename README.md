@@ -12,6 +12,7 @@
 - [3-D散布図](/python_samples/blog_plot_3-D_scatter_graph.ipynb)
 
 ### その他
+- [移動平均](/python_samples/blog_rolling_mean.ipynb)
 - [処理時間計測](/python_samples/blog_processing_time.ipynb)
 - [メモリ使用量計測](/python_samples/blog_memory_usage.py)
 df.index[(df["frequency"]-3000).abs().argsort()][0]
