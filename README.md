@@ -9,6 +9,7 @@
 - [precision/recall/f-value](/python_samples/blog_precision_recall_f-value.ipynb)
 
 ### グラフ描画
+- [2軸グラフ](/python_samples/blog_plot_2-axis_graph.ipynb)
 - [3-D散布図](/python_samples/blog_plot_3-D_scatter_graph.ipynb)
 
 ### その他
