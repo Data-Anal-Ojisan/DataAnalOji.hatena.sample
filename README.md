@@ -1,6 +1,6 @@
 # DataAnalOji.hatena.sample
 
-## pythonで統計
+## pythonで解析
 
 ### クラスタリング
 - [GMM](/python_samples/blog_gaussian_mixture.ipynb)
