@@ -16,4 +16,4 @@
 - [移動平均](/python_samples/blog_rolling_mean.ipynb)
 - [処理時間計測](/python_samples/blog_processing_time.ipynb)
 - [メモリ使用量計測](/python_samples/blog_memory_usage.py)
-- [指定値に最も近い値のインデックス検索](/python_samples/blog_search_closest_index.py)
+- [指定値に最も近い値のインデックス検索](/python_samples/blog_search_closest_index.ipynb)
