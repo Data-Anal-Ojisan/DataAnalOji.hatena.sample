@@ -2,6 +2,9 @@
 
 ## pythonで解析
 
+### Neural Networks
+- [GAN(準備中)](/python_samples/blog_GAN.ipynb)
+
 ### クラスタリング
 - [GMM(準備中)](/python_samples/blog_gaussian_mixture.ipynb)
 
