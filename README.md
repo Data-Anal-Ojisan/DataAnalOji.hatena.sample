@@ -24,3 +24,4 @@
 - [エクセルシート別にデータ保存](/python_samples/blog_save_excel_sheets.ipynb)
 - [ハイパーパラメータチューニング](/python_samples/blog_hyperparameter_tuning.ipynb)
 - [指定値に最も近い値のインデックス検索](/python_samples/blog_search_closest_index.ipynb)
+- [特例の文字列を含む列名の取得](/python_samples/blog_extract_column_contain_specific_character.ipynb)
