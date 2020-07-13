@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1594641571279.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3FDCE11D",
+    "lastKnownWriteTime" : 1560734659,
+    "last_content_update" : 1560734659,
+    "path" : "~/book-r-stan-bayesian-model-intro-master/book-r-stan-bayesian-model-intro-master/book-data/3-2-単回帰モデル.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "53,20",
+        "scrollLine" : "15"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
