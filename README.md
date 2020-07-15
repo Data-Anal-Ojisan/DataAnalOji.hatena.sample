@@ -1,7 +1,5 @@
 # DataAnalOji.hatena.sample
 
-## pythonで解析
-
 ## pystan
 
 ### RとStanではじめるベイズ統計モデリングによるデータ分析入門をpythonで実装
@@ -9,6 +7,7 @@
 - [3-3-モデルを用いた予測](/python_samples/stan/3-3-モデルを用いた予測.ipynb)
 - [5-2-ローカルレベルモデル](/python_samples/stan/5-2-ローカルレベルモデル.ipynb)
 
+## pythonで解析
 
 ### Neural Networks
 - [GAN(準備中)](/python_samples/blog_GAN.ipynb)
