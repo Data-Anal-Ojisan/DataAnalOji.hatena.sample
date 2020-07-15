@@ -1,24 +1,22 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1594730699490.000,
+    "created" : 1594807260794.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
-    "id" : "30BBC9E2",
+    "hash" : "1817086409",
+    "id" : "25D83858",
     "lastKnownWriteTime" : 1560734659,
     "last_content_update" : 1560734659,
-    "path" : "~/book-r-stan-bayesian-model-intro-master/book-r-stan-bayesian-model-intro-master/book-data/3-6-ダミー変数と分散分析モデル.R",
+    "path" : "~/book-r-stan-bayesian-model-intro-master/book-r-stan-bayesian-model-intro-master/book-data/5-2-ローカルレベルモデル.R",
     "project_path" : null,
     "properties" : {
-        "cursorPosition" : "62,36",
-        "scrollLine" : "8"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 6,
+    "relative_order" : 8,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"
