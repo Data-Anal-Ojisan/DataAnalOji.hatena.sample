@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1594820098301.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5A389905",
+    "lastKnownWriteTime" : 1560734659,
+    "last_content_update" : 1560734659,
+    "path" : "~/book-r-stan-bayesian-model-intro-master/book-r-stan-bayesian-model-intro-master/book-data/3-4-デザイン行列を用いた一般化線形モデルの推定.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "34,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
