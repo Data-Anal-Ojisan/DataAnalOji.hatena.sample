@@ -5,7 +5,7 @@
 ### RとStanではじめるベイズ統計モデリングによるデータ分析入門をpythonで実装
 - [3-2-単回帰モデル](/python_samples/stan/3-2-単回帰モデル.ipynb)
 - [3-3-モデルを用いた予測](/python_samples/stan/3-3-モデルを用いた予測.ipynb)
-- [3-4-デザイン行列を用いた一般化線形モデルの推定](/python_samples/stan/3-4-デザイン行列を用いた一般化線形モデルの推定)
+- [3-4-デザイン行列を用いた一般化線形モデルの推定](/python_samples/stan/3-4-デザイン行列を用いた一般化線形モデルの推定.ipynb)
 - [5-2-ローカルレベルモデル](/python_samples/stan/5-2-ローカルレベルモデル.ipynb)
 
 ## pythonで解析
