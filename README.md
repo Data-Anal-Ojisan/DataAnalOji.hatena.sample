@@ -6,6 +6,8 @@
 - [3-2-単回帰モデル](/python_samples/stan/3-2-単回帰モデル.ipynb)
 - [3-3-モデルを用いた予測](/python_samples/stan/3-3-モデルを用いた予測.ipynb)
 - [3-4-デザイン行列を用いた一般化線形モデルの推定](/python_samples/stan/3-4-デザイン行列を用いた一般化線形モデルの推定.ipynb)
+- 3-5-brmsの使い方（brmsに相当するパッケージがないため割愛）
+- [3-6-ダミー変数と分散分析モデル](/python_samples/stan/3-6-ダミー変数と分散分析モデル.ipynb)
 - [5-2-ローカルレベルモデル](/python_samples/stan/5-2-ローカルレベルモデル.ipynb)
 
 ## pythonで解析
