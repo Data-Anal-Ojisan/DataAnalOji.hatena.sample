@@ -5,9 +5,9 @@ Created on Thu Jul 30 20:13:06 2020
 @author: data-anal-ojisan
 """
 
-import tkinter as tk
+import tkinter as ttk
 
-root = tk.Tk()
+root = ttk.Tk()
 
 # title
 root.title('sample')

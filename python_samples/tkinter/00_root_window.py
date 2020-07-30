@@ -5,7 +5,7 @@ Created on Thu Jul 30 19:30:51 2020
 @author: data-anal-ojisan
 """
 
-import tkinter as tk
+import tkinter as ttk
 
-root = tk.Tk()
+root = ttk.Tk()
 root.mainloop()
