@@ -15,7 +15,7 @@ def plotSSM(mcmc_sample, time_vec, obs_vec, state_name,
     #
     # Args:
     #   mcmc_sample : MCMCサンプル
-    #   time_vec    : 時間軸(POSIXct)のベクトル
+    #   time_vec    : 時間軸(datetime)のベクトル
     #   obs_vec     : (必要なら)観測値のベクトル
     #   state_name  : 図示する状態の変数名
     #   graph_title : グラフタイトル
