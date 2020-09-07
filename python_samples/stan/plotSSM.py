@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 plt.style.use("ggplot")
 plt.rcParams["font.family"] = "Meiryo"
 
-def plotSSM(mcmc_sample, time_vec, obs_vec, state_name, 
-            graph_title, y_label):
+def plotSSM(mcmc_sample, time_vec, state_name, 
+            graph_title, y_label, axes, obs_vec=None):
 
     # 状態空間モデルを図示する関数
     #
@@ -20,6 +20,7 @@ def plotSSM(mcmc_sample, time_vec, obs_vec, state_name,
     #   state_name  : 図示する状態の変数名
     #   graph_title : グラフタイトル
     #   y_label     : y軸のラベル
+    #   axes        : サブプロットの描画領域
     #
     # Returns:
     #   生成されたグラフ
@@ -36,29 +37,30 @@ def plotSSM(mcmc_sample, time_vec, obs_vec, state_name,
     result_df['time'] = time_vec
     
     # 観測値の追加
-    if obs_vec.isnull().all(axis=0) == False:
-        result_df['obs'] = obs_vec
+    if obs_vec is not None:
+        if obs_vec.isnull().all(axis=0) == False:
+            result_df['obs'] = obs_vec
         
-    # 図示
-    plt.figure(figsize = (15,5))
-    plt.plot(result_df['time'], 
+    # 図示    
+    axes.plot(result_df['time'], 
              result_df['fit'], 
              color='black')
-    plt.fill_between(x=result_df['time'],
+    axes.fill_between(x=result_df['time'],
                      y1=result_df['upr'],
                      y2=result_df['lwr'],
                      color='gray',
                      alpha=0.5)
-    plt.ylabel(y_label)
-    plt.title(graph_title)
+    axes.set_ylabel(y_label)
+    axes.set_title(graph_title)
     
     # 観測値をグラフに追加
-    if obs_vec.isnull().all(axis=0) == False:
-        plt.plot(result_df['time'],
-                 result_df['obs'],
-                 marker='.',
-                 linewidth=0,
-                 color='black')
+    if obs_vec is not None:
+        if obs_vec.isnull().all(axis=0) == False:
+            axes.plot(result_df['time'],
+                     result_df['obs'],
+                     marker='.',
+                     linewidth=0,
+                     color='black')
         
     # グラフを返す
-    plt.show()
+    return axes
