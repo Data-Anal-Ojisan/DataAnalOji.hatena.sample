@@ -65,7 +65,7 @@ class CsvViewer:
 
         # ttk.Treeviewの呼び出し
         frame = tk.Frame(self.root);
-        frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
+
         self.tree = ttk.Treeview(frame)
 
 
@@ -79,8 +79,9 @@ class CsvViewer:
         vscrollbar = ttk.Scrollbar(frame, orient=tk.VERTICAL, command=self.tree.yview)
         self.tree.configure(yscrollcommand=vscrollbar.set)
 
-
-
+        frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
+        frame.columnconfigure(0, weight=1)
+        frame.rowconfigure(0, weight=1)
         self.tree.grid(row=0, column=0, sticky=tk.W + tk.E + tk.N + tk.S)
         hscrollbar.grid(row=1, column=0, sticky=tk.W + tk.E + tk.N + tk.S)
         vscrollbar.grid(row=0, column=1, sticky=tk.W + tk.E + tk.N + tk.S)
