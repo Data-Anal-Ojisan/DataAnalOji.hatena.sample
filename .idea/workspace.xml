@@ -1,7 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a06429f-5455-4989-b85f-951dbd817033" name="Default Changelist" comment="" />
+    <list default="true" id="7a06429f-5455-4989-b85f-951dbd817033" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DataAnalOji.hatena.sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataAnalOji.hatena.sample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_GAN-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_GAN-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_MIC_coefficient_array-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_MIC_coefficient_array-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_drop_highly_correlated_features-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_drop_highly_correlated_features-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_extract_column_contain_specific_character-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_extract_column_contain_specific_character-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_gaussian_mixture-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_gaussian_mixture-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_hyperparameter_tuning-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_hyperparameter_tuning-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_plot_2-axis_graph-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_plot_2-axis_graph-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_plot_3-D_scatter_graph-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_plot_3-D_scatter_graph-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_precision_recall_f-value-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_precision_recall_f-value-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_processing_time-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_processing_time-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_rolling_mean-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_rolling_mean-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_search_closest_index-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_search_closest_index-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_GAN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_GAN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_drop_highly_correlated_features.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_drop_highly_correlated_features.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_gaussian_mixture.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_gaussian_mixture.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_hyperparameter_tuning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_hyperparameter_tuning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_memory_usage.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_memory_usage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_plot_2-axis_graph.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_plot_2-axis_graph.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_plot_3-D_scatter_graph.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_plot_3-D_scatter_graph.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_processing_time.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_processing_time.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_rolling_mean.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_rolling_mean.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_search_closest_index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_search_closest_index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-3-モデルを用いた予測-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-3-モデルを用いた予測-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-4-デザイン行列を用いた一般化線形モデルの推定-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-4-デザイン行列を用いた一般化線形モデルの推定-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-6-ダミー変数と分散分析モデル-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-6-ダミー変数と分散分析モデル-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-7-正規線形モデル-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-7-正規線形モデル-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/5-2-ローカルレベルモデル-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/5-2-ローカルレベルモデル-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/ローカルレベルモデル-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/ローカルレベルモデル-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/2-4-1-beer-sales-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/2-4-1-beer-sales-1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-10-1-interaction-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-10-1-interaction-1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-10-2-interaction-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-10-2-interaction-2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-10-3-interaction-3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-10-3-interaction-3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-2-1-beer-sales-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-2-1-beer-sales-2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-2-1-simple-lm.stan" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-2-1-simple-lm.stan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-2-2-simple-lm-vec.stan" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-2-2-simple-lm-vec.stan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-3-1-simple-lm-pred.stan" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-3-1-simple-lm-pred.stan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-3-モデルを用いた予測.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-3-モデルを用いた予測.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-4-1-lm-design-matrix.stan" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-4-1-lm-design-matrix.stan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-6-1-beer-sales-3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-6-1-beer-sales-3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-7-1-beer-sales-4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-7-1-beer-sales-4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-8-1-fish-num-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-8-1-fish-num-1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/3-9-1-germination.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/3-9-1-germination.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/4-1-1-fish-num-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/4-1-1-fish-num-2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/4-2-1-fish-num-3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/4-2-1-fish-num-3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/4-3-1-fish-num-4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/4-3-1-fish-num-4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/5-2-1-local-level.stan" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/5-2-1-local-level.stan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/5-2-1-sales-ts-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/5-2-1-sales-ts-1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/5-3-1-sales-ts-1-NA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/5-3-1-sales-ts-1-NA.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/5-4-1-sales-ts-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/5-4-1-sales-ts-2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/5-5-1-sales-ts-3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/5-5-1-sales-ts-3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/5-6-1-sales-ts-4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/5-6-1-sales-ts-4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/5-7-1-sales-ts-5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/5-7-1-sales-ts-5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/5-9-1-fish-num-ts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/5-9-1-fish-num-ts.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/stan/boat.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/boat.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/00_root_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/00_root_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/01_title.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/01_title.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/02_window_size.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/02_window_size.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/03_label.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/03_label.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/04_textbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/04_textbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/05.0_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/05.0_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/05.1_button_hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/05.1_button_hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/06_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/06_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.0_fir_iris_random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.0_fir_iris_random_forest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.spec" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し4.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,9 +101,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_samples/tkinter/test_matplotlib.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.08_csv_viewer">
     <configuration name="08_csv_viewer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataAnalOji.hatena.sample" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,6 +126,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_matplotlib" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DataAnalOji.hatena.sample" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\rhira\Anaconda3\envs\tmp\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_samples/tkinter" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/test_matplotlib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.08_csv_viewer" />
+      <item itemvalue="Python.test_matplotlib" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,29 +164,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604371511377">
+    <state x="414" y="174" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605521111104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1604371511377" />
-    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1604371507637">
+    <state x="414" y="174" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1605521111104" />
+    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1605521025743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="286" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1604371507637" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1604808899459">
+    <state x="740" y="286" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1605521025743" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1605522986347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1604808899459" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1604808899459">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1605522986347" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1605522986347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1604808899459" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1604808899459">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1605522986347" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1605522986347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1604808899459" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1604808899459">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1605522986347" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1605522986347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1604808899459" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1605522986347" />
+    <state x="468" y="164" key="SettingsEditor" timestamp="1605521143778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="468" y="164" key="SettingsEditor/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1605521143778" />
   </component>
 </project>
