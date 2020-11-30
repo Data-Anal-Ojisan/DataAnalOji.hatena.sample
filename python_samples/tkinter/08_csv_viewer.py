@@ -102,7 +102,7 @@ class CsvViewer:
         # ファイルダイアログの選択結果をtk.Entryの内容に挿入する
         entry_field.insert(tk.END, str(file_path))
 
-    def read_csv_excel(self, path):
+    def read_csv(self, path):
         """
         ファイルパスの拡張子がcsvの場合に内容を読み込み，ttk.Treeviewに内容を表示する。
         拡張子がcsv以外の場合はメッセージボックスを表示する。
