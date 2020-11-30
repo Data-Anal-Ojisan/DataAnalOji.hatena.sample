@@ -55,8 +55,8 @@ class CsvViewer:
 
         # CSVファイルを読み込み，Treeviewに内容を表示するボタンを作成
         tk.Button(frame, text='read',
-                  command=lambda: self.read_csv_excel(entry_field.get(),  # entry_fieldに入力されているファイルパス
-                                                      )).pack(side=tk.LEFT)
+                  command=lambda: self.read_csv(entry_field.get(),  # entry_fieldに入力されているファイルパス
+                                                )).pack(side=tk.LEFT)
 
     def call_treeview_widget(self):
         """
