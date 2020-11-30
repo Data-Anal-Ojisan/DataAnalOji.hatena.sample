@@ -45,5 +45,3 @@ import tkinter as tk
 root = tk.Tk()
 root.configure(background='#000000000')
 root.mainloop()
-
-
