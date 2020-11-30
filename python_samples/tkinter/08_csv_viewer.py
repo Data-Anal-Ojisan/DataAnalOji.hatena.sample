@@ -136,7 +136,7 @@ class CsvViewer:
         # 列番号をTreeviewに追加する
         self.tree['column'] = np.arange(np.array(self.data).shape[1]).tolist()
 
-        # 列のヘッダーを行進する
+        # 列のヘッダーを更新する
         for i in self.tree['column']:
             self.tree.column(i, width=100, anchor=tk.E)
             self.tree.heading(i, text=str(i))
