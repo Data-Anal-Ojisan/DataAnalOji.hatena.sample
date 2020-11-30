@@ -90,13 +90,16 @@ class CsvViewer:
 
         :param entry_field: tk.Entry
         """
-        # clear entry_field
+        # tk.Entryに記入されている内容をクリアする
         entry_field.delete(0, tk.END)
-        # get abspath
+
+        # 実行ファイルの絶対パスを取得する
         abs_path = os.path.abspath(os.path.dirname(__file__))
-        # call file dialog
+
+        # 初期ディレクトリを実行ファイルの絶対パスにしたファイルダイアログを呼び出す
         file_path = filedialog.askopenfilename(initialdir=abs_path)
-        # set file path to entry_field
+
+        # ファイルダイアログの選択結果をtk.Entryの内容に挿入する
         entry_field.insert(tk.END, str(file_path))
 
     def read_csv_excel(self, path):
