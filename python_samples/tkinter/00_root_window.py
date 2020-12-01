@@ -7,9 +7,9 @@ Created on Thu Jul 30 19:30:51 2020
 
 import tkinter as tk
 
-# # 設定なし
-# root = tk.Tk()
-# root.mainloop()
+# 設定なし
+root = tk.Tk()   # ルートウィンドウ（Top-level widget) を作成する
+root.mainloop()  # アプリケーション起動を維持
 
 # # タイトル変更
 # root = tk.Tk()
