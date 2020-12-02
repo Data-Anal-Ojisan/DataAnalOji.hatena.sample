@@ -74,6 +74,7 @@
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.spec" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.spec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し3.py" afterDir="false" />
@@ -195,26 +196,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="286" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1606743778400" />
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1606745354472">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="843" height="281" key="GridCell.Tab.0.bottom" timestamp="1606909770327">
+      <screen x="-1080" y="-836" width="864" height="1504" />
     </state>
-    <state width="843" height="432" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606731749643" />
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1606745354472" />
-    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1606745354471">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="843" height="281" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606909770327" />
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1606831265164" />
+    <state width="843" height="281" key="GridCell.Tab.0.center" timestamp="1606909770326">
+      <screen x="-1080" y="-836" width="864" height="1504" />
     </state>
-    <state width="843" height="432" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606731749643" />
-    <state width="1899" height="281" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1606745354471" />
-    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1606745354471">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="843" height="281" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606909770326" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1606831265164" />
+    <state width="843" height="281" key="GridCell.Tab.0.left" timestamp="1606909770326">
+      <screen x="-1080" y="-836" width="864" height="1504" />
     </state>
-    <state width="843" height="432" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606731749643" />
-    <state width="1899" height="281" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1606745354471" />
-    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1606745354471">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="843" height="281" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606909770326" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1606831265164" />
+    <state width="843" height="281" key="GridCell.Tab.0.right" timestamp="1606909770327">
+      <screen x="-1080" y="-836" width="864" height="1504" />
     </state>
-    <state width="843" height="432" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606731749643" />
-    <state width="1899" height="281" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1606745354471" />
+    <state width="843" height="281" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606909770327" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1606831265164" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1606744269176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -235,5 +236,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="468" y="164" key="SettingsEditor/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1605521143778" />
+    <state x="-985" y="-497" width="672" height="678" key="search.everywhere.popup" timestamp="1606899626255">
+      <screen x="-1080" y="-836" width="864" height="1504" />
+    </state>
+    <state x="-985" y="-497" width="672" height="678" key="search.everywhere.popup/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606899626255" />
   </component>
 </project>
