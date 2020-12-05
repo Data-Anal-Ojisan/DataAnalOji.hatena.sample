@@ -19,7 +19,7 @@ setup(
         'py2exe': option,
     },
     console = [
-        {'script': '07.1_iris_classifer.py'}
+        {'script': '07.1_iris_classifier.py'}
     ],
     zipfile = None
 )

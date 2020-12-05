@@ -10,11 +10,11 @@ from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 
 # irisデータセットを読み込む
-iris = load_iris()
+iris = load_iris()                   # インスタンスを生成
 feature = iris.data                  # 特徴量を取得
 target = iris.target.reshape(-1, 1)  # クラスを取得
 
-# ランダムフォレストのインスタンスを生成
+# RandomForestClassifierのインスタンスを生成
 RandomForestIris = RandomForestClassifier()
 
 # 学習を実行

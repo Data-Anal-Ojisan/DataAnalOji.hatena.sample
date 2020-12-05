@@ -17,6 +17,10 @@ class IrisClassifier:
         self.root = tk.Tk()                                    # トップレベルウィンドウ
         self.classes = ['Setosa', 'Versicolour', 'Virginica']  # アヤメ種別のリスト
 
+        # 事前学習済みモデルを読み込む
+        with open('model/RandomForest_Iris.pickle', mode='rb') as fp:
+            self.model = pickle.load(fp)
+
         # 分類結果を表示するためのtk.StringVar()
         self.predicted_class = tk.StringVar()
 
@@ -90,10 +94,6 @@ class IrisClassifier:
         アヤメの分類処理を実行し，分類結果を示すtk.StringVar()を更新するメソッド
         """
 
-        # 事前学習済みモデルを読み込む
-        with open('model/RandomForest_Iris.pickle', mode='rb') as fp:
-            model = pickle.load(fp)
-
         # 入力データを作成する
         input_data = [[self.feature['sepal_length'].get(),
                        self.feature['sepal_width'].get(),
@@ -101,7 +101,7 @@ class IrisClassifier:
                        self.feature['petal_width'].get()]]
 
         # 分類を行う
-        predict = model.predict(input_data)
+        predict = self.model.predict(input_data)
 
         # tk.StringVar()の更新
         self.predicted_class.set(self.classes[int(predict)])

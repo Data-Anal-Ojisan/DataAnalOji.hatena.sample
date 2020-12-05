@@ -88,11 +88,11 @@
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/05.0_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/05.0_button.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/05.1_button_hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/05.1_button_hello.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/06_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/06_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.0_fir_iris_random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.0_fir_iris_random_forest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.spec" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.0_fir_iris_random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.0_fit_iris_random_forest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.spec" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/RandomForest_Iris.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/model/RandomForest_Iris.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/model/RandomForest_Iris.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/model/RandomForest_Iris.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し3.py" afterDir="false" />
@@ -120,7 +120,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_samples/tkinter/07.0_fit_iris_random_forest.py" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -130,7 +130,7 @@
       <recent name="C:\Users\rhira\Documents\GitHub\DataAnalOji.hatena.sample\python_samples\tkinter" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.07.1_iris_classifer">
+  <component name="RunManager" selected="Python.07.1_iris_classifier">
     <configuration name="00_root_window" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataAnalOji.hatena.sample" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07.1_iris_classifer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="07.0_fit_iris_random_forest" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataAnalOji.hatena.sample" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,7 +164,28 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/07.0_fit_iris_random_forest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="07.1_iris_classifier" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DataAnalOji.hatena.sample" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\rhira\Anaconda3\envs\djng\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_samples/tkinter" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\rhira\Documents\GitHub\DataAnalOji.hatena.sample\python_samples\tkinter\07.1_iris_classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,8 +239,9 @@
     <list>
       <item itemvalue="Python.08_csv_viewer" />
       <item itemvalue="Python.00_root_window" />
-      <item itemvalue="Python.07.1_iris_classifer" />
+      <item itemvalue="Python.07.0_fit_iris_random_forest" />
       <item itemvalue="Python.test_matplotlib" />
+      <item itemvalue="Python.07.1_iris_classifier" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -245,54 +267,54 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" width="1092" height="811" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607124177401">
+    <state x="414" y="174" width="1092" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607146308646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" width="1092" height="811" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607124177401" />
-    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1607124033630">
+    <state x="414" y="174" width="1092" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146308646" />
+    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1607146305972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="286" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607124033630" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1607129654747">
+    <state x="740" y="286" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146305972" />
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1607146446002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607129654747" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1607129654747">
+    <state width="843" height="180" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446002" />
+    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1607146446002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861987" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607129654747" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1607129654747">
+    <state width="843" height="180" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
+    <state width="1899" height="348" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446002" />
+    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1607146446002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861987" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607129654747" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1607129654747">
+    <state width="843" height="180" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
+    <state width="1899" height="348" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446002" />
+    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1607146446002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607129654747" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607129654747">
+    <state width="843" height="180" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
+    <state width="1899" height="348" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446002" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607146446003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607129654747" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1607129654747">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446003" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1607146446003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607129654747" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1607129654747">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446003" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1607146446002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607129654747" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1607129654747">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446002" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1607146446003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607129654747" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446003" />
     <state x="468" y="164" key="SettingsEditor" timestamp="1605521143778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,16 +323,5 @@
       <screen x="-1080" y="-836" width="864" height="1504" />
     </state>
     <state x="-985" y="-497" width="672" height="678" key="search.everywhere.popup/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606899626255" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python_samples/tkinter/07.0_fir_iris_random_forest.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
