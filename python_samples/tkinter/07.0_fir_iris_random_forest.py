@@ -8,24 +8,18 @@ Created on Thu Jul 30 20:43:48 2020
 import pickle
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
-from keras import Sequential
-from keras.layers import Dense
 
-# load dataset
+# irisデータセットを読み込む
 iris = load_iris()
-feature = iris.data
-target = iris.target.reshape(-1,1)
+feature = iris.data                  # 特徴量を取得
+target = iris.target.reshape(-1, 1)  # クラスを取得
 
-# define model
+# ランダムフォレストのインスタンスを生成
 RandomForestIris = RandomForestClassifier()
 
-# fit
+# 学習を実行
 RandomForestIris.fit(feature, target)
 
-# save model
-with open('RandomForest_Iris.pickle', mode='wb') as fp:
+# モデルを保存
+with open('model/RandomForest_Iris.pickle', mode='wb') as fp:
     pickle.dump(RandomForestIris, fp)
-    
-# # define NN model
-NN = Sequential()
-# NN.add(Dense(64, activation='relu', input_shape=()))

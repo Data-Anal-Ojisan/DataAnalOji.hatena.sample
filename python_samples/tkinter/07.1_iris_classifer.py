@@ -5,74 +5,109 @@ Created on Thu Jul 30 21:00:51 2020
 @author: data-anal-ojisan
 """
 
-import os
 import pickle
-import numpy as np
-import tkinter as ttk
-
-root = ttk.Tk()
-
-# title
-root.title('iris classifer')
-
-# window size
-root.geometry('500x400')
+import tkinter as tk
+from tkinter import ttk
 
 
-Static1 = ttk.Label(text=u'sepal_length') # ラベル
-Static1.pack()
-EditBox1 = ttk.Entry() # 1行入力ボックス
-EditBox1.pack()
- 
-Static2 = ttk.Label(text=u'sepal_width')
-Static2.pack()
-EditBox2 = ttk.Entry()
-EditBox2.pack()
- 
-Static3 = ttk.Label(text=u'petal_length')
-Static3.pack()
-EditBox3 = ttk.Entry()
-EditBox3.pack()
- 
-Static4 = ttk.Label(text=u'petal_width')
-Static4.pack()
-EditBox4 = ttk.Entry()
-EditBox4.pack()
+class IrisClassifier:
 
-def dlModel(event):
-    global predict
-    ret = True
-    
-    if ret:
-        val1 = float(EditBox1.get())
-        val2 = float(EditBox2.get())
-        val3 = float(EditBox3.get())
-        val4 = float(EditBox4.get())
-        
-        test_data = [val1,val2,val3,val4]
-        test_data = np.array(test_data).reshape(1,-1)
- 
-        with open('RandomForest_Iris.pickle', mode='rb') as fp:
-                model = pickle.load(fp)
-        predict = model.predict(test_data)
-        
-        # # 最も値が大きいものを出力
-        if predict == 0:
-            label["text"] = "Setosa"
-        elif predict == 1:
-            label["text"] = "Versicolour"
-        else:
-            label["text"] = "Virginica"
-            
-# Predict
-Button = ttk.Button(text=u'Predict', font=8)
-Button.bind("<Button-1>", dlModel) # <Button-1>は左クリック、クリックするとdlModelが呼び出される
-Button.pack(pady=5)
- 
-# 結果
-label = ttk.Label(text=u' ', font=8, foreground='#ff0000')
-label.pack(pady=5)
- 
+    def __init__(self):
+
+        self.root = tk.Tk()                                    # トップレベルウィンドウ
+        self.classes = ['Setosa', 'Versicolour', 'Virginica']  # アヤメ種別のリスト
+
+        # 分類結果を表示するためのtk.StringVar()
+        self.predicted_class = tk.StringVar()
+
+        # 入力フィールドの値をまとめたdictionary
+        self.feature = {'sepal_length': tk.DoubleVar(value=3.0),
+                        'sepal_width': tk.DoubleVar(value=3.0),
+                        'petal_length': tk.DoubleVar(value=3.0),
+                        'petal_width': tk.DoubleVar(value=3.0)}
+
+    def launch(self):
+        """
+        アプリ起動用メソッド
+        """
+
+        self.call_window()
+        self.call_input_fields()
+        self.call_classification_button()
+        self.call_result_label()
+        self.root.mainloop()
+
+    def call_window(self):
+        """
+        ウィンドウを呼び出す
+        """
+
+        self.root.title('Iris Classification App')
+        self.root.geometry('275x300')
+        self.root.resizable(height=False, width=False)
+
+    def call_input_fields(self):
+        """
+        アヤメの特徴量を指定するための入力フィールドを呼び出す
+        """
+
+        # ウィジェット配置のためのLabelFrameを作成
+        lf = ttk.LabelFrame(self.root, text='Features', padding=(10, 10))
+        lf.pack(fill=tk.X, padx=5, pady=5)
+
+        # 特徴量指定のための入力フィールドを作成
+        for i, key in enumerate(self.feature.keys(), 0):
+            tk.Label(lf, text=key, anchor='e', width=15).grid(row=i, column=0)
+            tk.Label(lf, text=' : ').grid(row=i, column=1)
+            tk.Entry(lf, textvariable=self.feature[key], justify='right', width=10).grid(row=i, column=2)
+
+    def call_classification_button(self):
+        """
+        指定の特徴量をもとにアヤメ種別の分類処理を開始するボタンを呼び出す
+        """
+
+        tk.Button(self.root, text='Classify', command=self.classification).pack(fill=tk.X, padx=5, pady=5)
+
+    def call_result_label(self):
+        """
+        分類結果を表示するラベルを呼び出す
+        """
+
+        # ウィジェット配置のためのFrameを作成
+        f = tk.Frame(self.root, relief='solid', bd=1)
+        f.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
+
+        # ラベルを作成
+        tk.Label(f, text='Predicted class').pack(anchor='center')
+        tk.Label(f,
+                 textvariable=self.predicted_class,
+                 bg='white',
+                 font=('', 30),
+                 foreground='#ff0000').pack(anchor='center', expand=True, fill=tk.BOTH)
+
+    def classification(self):
+        """
+        アヤメの分類処理を実行し，分類結果を示すtk.StringVar()を更新するメソッド
+        """
+
+        # 事前学習済みモデルを読み込む
+        with open('model/RandomForest_Iris.pickle', mode='rb') as fp:
+            model = pickle.load(fp)
+
+        # 入力データを作成する
+        input_data = [[self.feature['sepal_length'].get(),
+                       self.feature['sepal_width'].get(),
+                       self.feature['petal_length'].get(),
+                       self.feature['petal_width'].get()]]
+
+        # 分類を行う
+        predict = model.predict(input_data)
+
+        # tk.StringVar()の更新
+        self.predicted_class.set(self.classes[int(predict)])
 
 
-root.mainloop()
+if __name__ == '__main__':
+
+    app = IrisClassifier()
+    app.launch()
