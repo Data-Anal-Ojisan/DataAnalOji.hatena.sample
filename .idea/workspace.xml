@@ -88,9 +88,8 @@
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/05.0_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/05.0_button.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/05.1_button_hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/05.1_button_hello.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/06_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/06_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.0_fir_iris_random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.0_fit_iris_random_forest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifer.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.0_fit_iris_random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.0_fit_iris_random_forest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/model/RandomForest_Iris.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/model/RandomForest_Iris.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/setup.py" afterDir="false" />
@@ -275,46 +274,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="286" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146305972" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1607146446002">
+    <state width="1899" height="112" key="GridCell.Tab.0.bottom" timestamp="1607222106329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="843" height="180" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446002" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1607146446002">
+    <state width="1899" height="112" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607222106329" />
+    <state width="1899" height="112" key="GridCell.Tab.0.center" timestamp="1607222106329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="843" height="180" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446002" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1607146446002">
+    <state width="1899" height="112" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607222106329" />
+    <state width="1899" height="112" key="GridCell.Tab.0.left" timestamp="1607222106329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="843" height="180" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446002" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1607146446002">
+    <state width="1899" height="112" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607222106329" />
+    <state width="1899" height="112" key="GridCell.Tab.0.right" timestamp="1607222106329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="843" height="180" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446002" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607146446003">
+    <state width="1899" height="112" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607222106329" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607164968072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446003" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1607146446003">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607164968072" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1607164968072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446003" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1607146446002">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607164968072" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1607164968072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446002" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1607146446003">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607164968072" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1607164968072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146446003" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607164968072" />
     <state x="468" y="164" key="SettingsEditor" timestamp="1605521143778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -323,5 +322,16 @@
       <screen x="-1080" y="-836" width="864" height="1504" />
     </state>
     <state x="-985" y="-497" width="672" height="678" key="search.everywhere.popup/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606899626255" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_samples/tkinter/07.0_fit_iris_random_forest.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

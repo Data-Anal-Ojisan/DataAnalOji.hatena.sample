@@ -43,12 +43,12 @@ class IrisClassifier:
 
     def call_window(self):
         """
-        ウィンドウを呼び出す
+        ウィンドウの設定を行う
         """
 
-        self.root.title('Iris Classification App')
-        self.root.geometry('275x300')
-        self.root.resizable(height=False, width=False)
+        self.root.title('Iris Classification App')      # タイトルを変更する
+        self.root.geometry('275x300')                   # ウィンドウサイズを指定する
+        self.root.resizable(height=False, width=False)  # ウィンドウサイズ変更を不可にする
 
     def call_input_fields(self):
         """
@@ -109,5 +109,5 @@ class IrisClassifier:
 
 if __name__ == '__main__':
 
-    app = IrisClassifier()
-    app.launch()
+    app = IrisClassifier()  # IrisClassifierのインスタンスを生成する
+    app.launch()            # launch()メソッドでアプリを起動する
