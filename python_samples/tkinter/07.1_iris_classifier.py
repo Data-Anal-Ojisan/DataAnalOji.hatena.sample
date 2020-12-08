@@ -35,11 +35,11 @@ class IrisClassifier:
         アプリ起動用メソッド
         """
 
-        self.call_window()
-        self.call_input_fields()
-        self.call_classification_button()
-        self.call_result_label()
-        self.root.mainloop()
+        self.call_window()                 # ウィンドウ設定を行う
+        self.call_input_fields()           # 特徴量を指定する入力フィールドウィジェットを呼び出す
+        self.call_classification_button()  # 分類処理を実行するボタンウィジェットを呼び出す
+        self.call_result_label()           # 分類結果を表示するラベルウィジェットを呼び出す
+        self.root.mainloop()               # アプリの起動状態を維持する
 
     def call_window(self):
         """
