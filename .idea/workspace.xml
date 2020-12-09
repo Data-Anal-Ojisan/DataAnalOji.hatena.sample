@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a06429f-5455-4989-b85f-951dbd817033" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_samples/tkinter/09_convert_J2E_display_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_samples/tkinter/language/09_english.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_samples/tkinter/language/09_japanese.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_samples/tkinter/language/japanese.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/DataAnalOji.hatena.sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataAnalOji.hatena.sample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -94,6 +92,9 @@
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.0_fit_iris_random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.0_fit_iris_random_forest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/07.1_iris_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/09_convert_J2E_display_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/09_convert_J2E_display_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/language/09_english.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/10_BMI_Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/language/09_japanese.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/language/english.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/タイトル無し3.py" afterDir="false" />
@@ -121,7 +122,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_samples/tkinter/07.0_fit_iris_random_forest.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_samples/tkinter/10_BMI_Calculator.py" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -131,7 +132,7 @@
       <recent name="C:\Users\rhira\Documents\GitHub\DataAnalOji.hatena.sample\python_samples\tkinter" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.07.1_iris_classifier">
+  <component name="RunManager" selected="Python.10_BMI_Calculator">
     <configuration name="00_root_window" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataAnalOji.hatena.sample" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,27 +175,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07.1_iris_classifier" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="DataAnalOji.hatena.sample" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\rhira\Anaconda3\envs\djng\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_samples/tkinter" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\rhira\Documents\GitHub\DataAnalOji.hatena.sample\python_samples\tkinter\07.1_iris_classifier.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="08_csv_viewer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataAnalOji.hatena.sample" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,6 +188,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="09_convert_J2E_display_text" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DataAnalOji.hatena.sample" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\rhira\Anaconda3\envs\djng\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_samples/tkinter" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/09_convert_J2E_display_text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10_BMI_Calculator" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DataAnalOji.hatena.sample" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\rhira\Anaconda3\envs\djng\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_samples/tkinter" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/10_BMI_Calculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,7 +264,8 @@
       <item itemvalue="Python.00_root_window" />
       <item itemvalue="Python.07.0_fit_iris_random_forest" />
       <item itemvalue="Python.test_matplotlib" />
-      <item itemvalue="Python.07.1_iris_classifier" />
+      <item itemvalue="Python.09_convert_J2E_display_text" />
+      <item itemvalue="Python.10_BMI_Calculator" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -268,54 +291,54 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" width="1092" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607146308646">
+    <state x="414" y="157" width="1092" height="883" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607522353500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" width="1092" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146308646" />
-    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1607146305972">
+    <state x="414" y="157" width="1092" height="883" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607522353500" />
+    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1607522349933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="286" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607146305972" />
-    <state width="1899" height="112" key="GridCell.Tab.0.bottom" timestamp="1607239676556">
+    <state x="740" y="286" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607522349933" />
+    <state width="1899" height="112" key="GridCell.Tab.0.bottom" timestamp="1607522486811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="843" height="180" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="112" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607239676556" />
-    <state width="1899" height="112" key="GridCell.Tab.0.center" timestamp="1607239676555">
+    <state width="1899" height="112" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607522486811" />
+    <state width="1899" height="112" key="GridCell.Tab.0.center" timestamp="1607522486811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="843" height="180" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="112" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607239676555" />
-    <state width="1899" height="112" key="GridCell.Tab.0.left" timestamp="1607239676555">
+    <state width="1899" height="112" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607522486811" />
+    <state width="1899" height="112" key="GridCell.Tab.0.left" timestamp="1607522486811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="843" height="180" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="112" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607239676555" />
-    <state width="1899" height="112" key="GridCell.Tab.0.right" timestamp="1607239676556">
+    <state width="1899" height="112" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607522486811" />
+    <state width="1899" height="112" key="GridCell.Tab.0.right" timestamp="1607522486811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="843" height="180" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="112" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607239676556" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607222806604">
+    <state width="1899" height="112" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607522486811" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607504633990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607222806604" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1607222806604">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607504633990" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1607504633989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607222806604" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1607222806603">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607504633989" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1607504633989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607222806603" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1607222806604">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607504633989" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1607504633989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607222806604" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607504633989" />
     <state x="468" y="164" key="SettingsEditor" timestamp="1605521143778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
