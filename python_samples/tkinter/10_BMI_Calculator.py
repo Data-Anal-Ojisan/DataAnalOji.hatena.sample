@@ -37,7 +37,7 @@ class App:
 
         # 身長の入力フィールドを作成
         tk.Label(frame, text='身長 (cm)', width=10).grid(row=0, column=0, padx=5, pady=5)
-        tk.Entry(frame, text=self.values['height'], width=15).grid(row=0, column=1, padx=5, pady=5)
+        tk.Entry(frame, textvariable=self.values['height'], width=15).grid(row=0, column=1, padx=5, pady=5)
 
         # 体重の入力フィールドを作成
         tk.Label(frame, text='体重 (kg)', width=10).grid(row=1, column=0, padx=5, pady=5)
