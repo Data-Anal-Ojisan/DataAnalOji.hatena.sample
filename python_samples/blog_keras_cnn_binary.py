@@ -87,6 +87,7 @@ if __name__ == '__main__':
         epochs=5)
     
     # Accurayの変遷をプロット
+    plt.figure(figsize=(4, 5))
     plt.plot(history.history['accuracy'])
     plt.plot(history.history['val_accuracy'])
     plt.title('Model accuracy')
@@ -96,6 +97,7 @@ if __name__ == '__main__':
     plt.show()
     
     # Lossの変遷をプロット
+    plt.figure(figsize=(4, 5))
     plt.plot(history.history['loss'])
     plt.plot(history.history['val_loss'])
     plt.title('Model loss')
