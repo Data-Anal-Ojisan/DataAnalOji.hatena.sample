@@ -38,6 +38,12 @@
       <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_processing_time-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_processing_time-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_rolling_mean-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_rolling_mean-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_search_closest_index-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_search_closest_index-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/PySide/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/PySide/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/PySide/.idea/PySide.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/PySide/.idea/PySide.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/PySide/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/PySide/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/PySide/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/PySide/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/PySide/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/PySide/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/PySide/sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/PySide/sample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_GAN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_GAN.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_drop_highly_correlated_features.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_drop_highly_correlated_features.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_gaussian_mixture.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_gaussian_mixture.ipynb" afterDir="false" />
