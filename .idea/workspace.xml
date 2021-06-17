@@ -48,6 +48,7 @@
       <change beforePath="$PROJECT_DIR$/python_samples/blog_drop_highly_correlated_features.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_drop_highly_correlated_features.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_gaussian_mixture.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_gaussian_mixture.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_hyperparameter_tuning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_hyperparameter_tuning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_keras_cnn_binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_keras_cnn_binary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_memory_usage.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_memory_usage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_plot_2-axis_graph.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_plot_2-axis_graph.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_plot_3-D_scatter_graph.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_plot_3-D_scatter_graph.ipynb" afterDir="false" />
@@ -138,7 +139,7 @@
       <recent name="C:\Users\rhira\Documents\GitHub\DataAnalOji.hatena.sample\python_samples\tkinter" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.09_convert_J2E_display_text">
+  <component name="RunManager" selected="Python.08_csv_viewer">
     <configuration name="00_root_window" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataAnalOji.hatena.sample" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,9 +189,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\rhira\Anaconda3\envs\djng\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_samples/tkinter" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" />
@@ -298,62 +299,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="157" width="1092" height="883" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609145568470">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623924734823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="157" width="1092" height="883" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1609145568470" />
-    <state x="740" y="277" width="440" height="500" key="FileChooserDialogImpl" timestamp="1609145481209">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="277" width="440" height="500" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1609145481209" />
-    <state width="1899" height="112" key="GridCell.Tab.0.bottom" timestamp="1609146248469">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="843" height="180" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="112" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1609146248469" />
-    <state width="1899" height="112" key="GridCell.Tab.0.center" timestamp="1609146248468">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="843" height="180" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="112" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1609146248468" />
-    <state width="1899" height="112" key="GridCell.Tab.0.left" timestamp="1609146248468">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="843" height="180" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="112" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1609146248468" />
-    <state width="1899" height="112" key="GridCell.Tab.0.right" timestamp="1609146248468">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="843" height="180" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1607130130591" />
-    <state width="1899" height="112" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1609146248468" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607504633990">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607504633990" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1607504633989">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607504633989" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1607504633989">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607504633989" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1607504633989">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606911861988" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1607504633989" />
-    <state x="468" y="164" key="SettingsEditor" timestamp="1609145558244">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="468" y="164" key="SettingsEditor/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1609145558244" />
-    <state x="-985" y="-497" width="672" height="678" key="search.everywhere.popup" timestamp="1606899626255">
-      <screen x="-1080" y="-836" width="864" height="1504" />
-    </state>
-    <state x="-985" y="-497" width="672" height="678" key="search.everywhere.popup/-1080.-836.864.1504/0.0.1920.1040@-1080.-836.864.1504" timestamp="1606899626255" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1623924734823" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
