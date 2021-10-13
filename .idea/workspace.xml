@@ -100,6 +100,7 @@
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/09_convert_J2E_display_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/09_convert_J2E_display_text.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/10_BMI_Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/10_BMI_Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/tkinter/11_advanced_csv_viewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/11_advanced_csv_viewer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/language/english.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/language/english.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/language/japanese.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/language/japanese.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/tkinter/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/tkinter/setup.py" afterDir="false" />
@@ -129,17 +130,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_samples/tkinter/10_BMI_Calculator.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_samples/tkinter/11_advanced_csv_viewer.py" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rhira\Documents\GitHub\DataAnalOji.hatena.sample\python_samples\tkinter" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rhira\Documents\GitHub\DataAnalOji.hatena.sample\python_samples\tkinter\model" />
       <recent name="C:\Users\rhira\Documents\GitHub\DataAnalOji.hatena.sample\python_samples\tkinter" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.08_csv_viewer">
+  <component name="RunManager" selected="Python.11_advanced_csv_viewer">
     <configuration name="00_root_window" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataAnalOji.hatena.sample" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,27 +178,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/07.0_fit_iris_random_forest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="08_csv_viewer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="DataAnalOji.hatena.sample" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_samples/tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/08_csv_viewer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,6 +228,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="11_advanced_csv_viewer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DataAnalOji.hatena.sample" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_samples/tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/11_advanced_csv_viewer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_matplotlib" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataAnalOji.hatena.sample" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,9 +273,9 @@
     <list>
       <item itemvalue="Python.00_root_window" />
       <item itemvalue="Python.07.0_fit_iris_random_forest" />
-      <item itemvalue="Python.08_csv_viewer" />
       <item itemvalue="Python.09_convert_J2E_display_text" />
       <item itemvalue="Python.10_BMI_Calculator" />
+      <item itemvalue="Python.11_advanced_csv_viewer" />
       <item itemvalue="Python.test_matplotlib" />
     </list>
   </component>
@@ -299,10 +303,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623924734823">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1633087971191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1623924734823" />
+    <state x="740" y="274" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1633087971191" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

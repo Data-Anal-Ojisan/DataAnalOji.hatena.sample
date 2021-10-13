@@ -12,6 +12,9 @@ from tkinter import filedialog
 from tkinter import messagebox
 
 
+DISPLAY_NUM = 20
+
+
 class CsvViewer:
 
     def __init__(self):
@@ -72,6 +75,7 @@ class CsvViewer:
         self.tree = ttk.Treeview(frame)
         self.tree.column('#0', width=50, stretch=tk.NO, anchor=tk.E)
         self.tree.grid(row=0, column=0, sticky=tk.W + tk.E + tk.N + tk.S)
+        
 
         # X軸スクロールバーを追加する
         hscrollbar = ttk.Scrollbar(frame, orient=tk.HORIZONTAL, command=self.tree.xview)
@@ -79,9 +83,9 @@ class CsvViewer:
         hscrollbar.grid(row=1, column=0, sticky=tk.W + tk.E + tk.N + tk.S)
 
         # Y軸スクロールバーを追加する
-        vscrollbar = ttk.Scrollbar(frame, orient=tk.VERTICAL, command=self.tree.yview)
-        self.tree.configure(yscrollcommand=vscrollbar.set)
-        vscrollbar.grid(row=0, column=1, sticky=tk.W + tk.E + tk.N + tk.S)
+        self.vscrollbar = ttk.Scrollbar(frame, orient=tk.VERTICAL, command=self.yview)
+        self.tree.configure(yscrollcommand=self.vscrollbar.set)
+        self.vscrollbar.grid(row=0, column=1, sticky=tk.W + tk.E + tk.N + tk.S)
 
     def set_path(self, entry_field):
         """
@@ -142,8 +146,31 @@ class CsvViewer:
             self.tree.heading(i, text=str(i))
 
         # 行番号及びCSVの内容を表示する
-        for i, row in enumerate(self.data, 0):
+        for i, row in enumerate(self.data[:10], 0):
             self.tree.insert('', 'end', text=i, values=row)
+
+    def update_treeview_items(self, offset=0):
+
+        # treeviewの表示を削除
+        self.tree.delete(*self.tree.get_children())
+
+        for n in range(offset, min(len(self.data), offset+DISPLAY_NUM)):
+            self.tree.insert("", tk.END, values=(n))
+
+    def yview(self, command, amount, unit=None):
+        if command == "moveto":
+            # スクロールバー位置から表示するデータの offset を計算
+            # 有効なスクロール範囲は 0.0 ～ 1.0 (範囲外までドラッグすると超えることも)
+            # offset 範囲は 0 ～ N - PAGE_SIZE
+            offset = max(0, min(len(self.data) - DISPLAY_NUM, int(float(amount) * len(self.data))))
+
+            # 表示するアイテムを更新
+            self.update_treeview_items(offset, DISPLAY_NUM)
+
+            # スクロールバー位置の計算
+            first = offset / len(self.data)
+            last = (offset + DISPLAY_NUM) / len(self.data)
+            self.vscrollbar.set(first, last)
 
 
 if __name__ == '__main__':
