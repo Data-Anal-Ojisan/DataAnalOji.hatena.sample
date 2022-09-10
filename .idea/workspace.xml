@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a06429f-5455-4989-b85f-951dbd817033" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/python_samples/tkinter/12_grid_sticky_configure.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/DataAnalOji.hatena.sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataAnalOji.hatena.sample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -28,7 +29,6 @@
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_GAN-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_GAN-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_MIC_coefficient_array-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_MIC_coefficient_array-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_drop_highly_correlated_features-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_drop_highly_correlated_features-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_extract_column_contain_specific_character-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_extract_column_contain_specific_character-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_gaussian_mixture-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_gaussian_mixture-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_hyperparameter_tuning-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/.ipynb_checkpoints/blog_hyperparameter_tuning-checkpoint.ipynb" afterDir="false" />
@@ -45,7 +45,6 @@
       <change beforePath="$PROJECT_DIR$/python_samples/PySide/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/PySide/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/PySide/sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/PySide/sample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_GAN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_GAN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_samples/blog_drop_highly_correlated_features.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_drop_highly_correlated_features.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_gaussian_mixture.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_gaussian_mixture.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_hyperparameter_tuning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_hyperparameter_tuning.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_keras_cnn_binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_keras_cnn_binary.py" afterDir="false" />
@@ -54,6 +53,7 @@
       <change beforePath="$PROJECT_DIR$/python_samples/blog_plot_3-D_scatter_graph.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_plot_3-D_scatter_graph.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_processing_time.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_processing_time.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_rolling_mean.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_rolling_mean.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_samples/blog_save_excel_sheets.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_save_excel_sheets.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/blog_search_closest_index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/blog_search_closest_index.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-3-モデルを用いた予測-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-3-モデルを用いた予測-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-4-デザイン行列を用いた一般化線形モデルの推定-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_samples/stan/.ipynb_checkpoints/3-4-デザイン行列を用いた一般化線形モデルの推定-checkpoint.ipynb" afterDir="false" />
@@ -130,7 +130,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_samples/tkinter/11_advanced_csv_viewer.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_samples/tkinter/12_grid_sticky_configure.py" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -143,7 +143,7 @@
       <recent name="C:\Users\rhira\Documents\GitHub\DataAnalOji.hatena.sample\python_samples\tkinter" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11_advanced_csv_viewer">
+  <component name="RunManager" selected="Python.12_grid_sticky_configure">
     <configuration name="00_root_window" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataAnalOji.hatena.sample" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,7 +228,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11_advanced_csv_viewer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="12_grid_sticky_configure" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataAnalOji.hatena.sample" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,7 +240,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/11_advanced_csv_viewer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_samples/tkinter/12_grid_sticky_configure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,7 +275,7 @@
       <item itemvalue="Python.07.0_fit_iris_random_forest" />
       <item itemvalue="Python.09_convert_J2E_display_text" />
       <item itemvalue="Python.10_BMI_Calculator" />
-      <item itemvalue="Python.11_advanced_csv_viewer" />
+      <item itemvalue="Python.12_grid_sticky_configure" />
       <item itemvalue="Python.test_matplotlib" />
     </list>
   </component>
@@ -303,10 +303,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1633087971191">
+    <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634300968858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1633087971191" />
+    <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1634300968858" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1634300967959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1634300967959" />
+    <state width="1899" height="112" key="GridCell.Tab.0.bottom" timestamp="1634346428683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="112" key="GridCell.Tab.0.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1634346428683" />
+    <state width="1899" height="112" key="GridCell.Tab.0.center" timestamp="1634346428683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="112" key="GridCell.Tab.0.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1634346428683" />
+    <state width="1899" height="112" key="GridCell.Tab.0.left" timestamp="1634346428682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="112" key="GridCell.Tab.0.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1634346428682" />
+    <state width="1899" height="112" key="GridCell.Tab.0.right" timestamp="1634346428683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="112" key="GridCell.Tab.0.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1634346428683" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1634345259600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1634345259600" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1634345259600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1634345259600" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1634345259600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1634345259600" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1634345259600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/-1080.-836.864.1504/0.0.1920.1040@0.0.1920.1040" timestamp="1634345259600" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
